@@ -183,9 +183,9 @@ if ($(".tf-sw-testimonial").length > 0) {
         centeredSlides: false,
       },
       1440: {
-        slidesPerView: preview,
+        slidesPerView: 2,
         spaceBetween: spacingLg,
-        centeredSlides: centered,
+        centeredSlides: false,
       },
     },
   });
@@ -404,8 +404,8 @@ if ($(".tf-sw-mobile").length > 0) {
       }
     } else {
       if (swiperMb) {
-        swiperMb.destroy(true, true); 
-        swiperMb = null; 
+        swiperMb.destroy(true, true);
+        swiperMb = null;
         $(".tf-sw-mobile .swiper-wrapper").removeAttr('style');
         $(".tf-sw-mobile .swiper-slide").removeAttr('style');
       }
@@ -444,8 +444,8 @@ if ($(".tf-sw-mobile-1").length > 0) {
       }
     } else {
       if (swiperMb) {
-        swiperMb.destroy(true, true); 
-        swiperMb = null; 
+        swiperMb.destroy(true, true);
+        swiperMb = null;
         $(".tf-sw-mobile-1 .swiper-wrapper").removeAttr('style');
         $(".tf-sw-mobile-1 .swiper-slide").removeAttr('style');
       }
